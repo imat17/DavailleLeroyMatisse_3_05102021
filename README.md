@@ -1,3 +1,7 @@
+<<<<<<< Updated upstream
+=======
+# DavailleLeroyMatisse_3_05102021
+>>>>>>> Stashed changes
 Projet 3 "Oh My Food" de la formation Openclassrooms
 
 # Oh My Food
@@ -29,3 +33,7 @@ Objectif : Développer un site 100% mobile qui répertorie les menus de restaura
 * Images livrées.
 * Les codes couleurs de base sont fournis.
 * La police du site est Roboto pour les textes et Shrikhand pour les logos et titres.
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
