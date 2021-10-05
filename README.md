@@ -1,5 +1,3 @@
-# DavailleLeroyMatisse_3_05102021
->>>>>>> Stashed changes
 Projet 3 "Oh My Food" de la formation Openclassrooms
 
 # Oh My Food
