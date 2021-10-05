@@ -1,0 +1,12 @@
+@mixin btn-style {
+    background: rgb(147,86,220);
+    background: linear-gradient(352deg, rgba(147,86,220,1) 13%, rgba(255,121,218,1) 100%);
+    border-radius: 2rem;
+    padding: .9rem;
+    width: 12rem;
+    font-size: 0.9rem;
+    color: $white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 3px 10px 5px $dark-gray;
+}

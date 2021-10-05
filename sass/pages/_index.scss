@@ -1,0 +1,80 @@
+.localisation {
+    background-color: $dark-gray;
+    text-align: center;
+    padding: 1.3rem;
+    font-weight: 500;
+    box-shadow: 1rem;
+    &__icon {
+        padding: .5rem;
+    }
+}
+
+.information {
+    background-color: $soft-gray;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    &__title {
+        font-size: 1.5rem;
+    }
+    &__text {
+        padding: 1rem 0 0;
+        color: rgb(104, 103, 103);
+    } 
+    &__btn {
+        margin: 1.8rem auto;
+        @include btn-style;
+    }
+}
+
+.process {
+    &__title {
+        margin-left: 1rem;
+        font-size: 1.3rem;
+    }
+}
+
+.list {
+    padding: 1rem;
+    &__step {
+        background-color: $soft-gray;
+        padding: 1.5rem;
+        margin-bottom: 1.4rem;
+        border-radius: 1rem;
+        box-shadow: 3px 10px 5px $dark-gray;
+        position: relative;
+        display: flex;
+        &:hover {
+            background-color: $primary-soft;
+        }
+    }
+    &__counter {
+        position: absolute;
+        left: -5px;
+        background-color: $color-primary;
+        border-radius: 200px;
+        padding: .2rem;
+        color: $white;
+        font-size: small;
+    }
+    &__icon {
+        color: gray;
+        margin-left: .7rem;
+    }
+    &__text {
+        font-weight: bold;
+        margin: 0 auto;
+    }
+}
+
+
+.restaurant {
+    background-color: $soft-gray;
+    padding: 3rem 1rem;
+    &__card {
+        position: relative;
+        
+    }
+}
