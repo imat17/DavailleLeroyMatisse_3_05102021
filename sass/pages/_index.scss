@@ -1,3 +1,4 @@
+//-------------------Localisation------------------
 .localisation {
     background-color: $dark-gray;
     text-align: center;
@@ -9,6 +10,8 @@
     }
 }
 
+
+//-----------------Information--------------------
 .information {
     background-color: $soft-gray;
     display: flex;
@@ -29,22 +32,23 @@
     }
 }
 
+//------------------Fonctionnement-----------------
+
 .process {
     &__title {
         margin-left: 1rem;
         font-size: 1.3rem;
         @include responsiveTitle;
     }
-}
-
-.list {
-    padding: 1rem;
+    &__list {
+        padding: 1rem;
+    }
     &__step {
         background-color: $soft-gray;
         padding: 1.5rem;
         margin-bottom: 1.4rem;
         border-radius: 1rem;
-        box-shadow: 3px 10px 5px $dark-gray;
+        box-shadow: $box-shadow;
         position: relative;
         display: flex;
         @include responsiveStep;
@@ -71,6 +75,10 @@
     }
 }
 
+   
+
+
+//--------------------Restaurants--------------------------
 
 .restaurant {
     background-color: $soft-gray;
@@ -89,6 +97,7 @@
         background-color: $white;
         margin-bottom: 2rem;
         width: 100%;
+        box-shadow: $box-shadow;
     }
     &__img {
         object-fit: cover;
@@ -139,10 +148,3 @@
         }
     }
 }
-
-//-------------------Responsive--------------------
-
-
-
-// -webkit-background-clip: text;
-// -webkit-text-fill-color: transparent;

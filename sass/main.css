@@ -23,9 +23,16 @@ h1, h5 {
   background-color: #FFFF;
   padding: 0.8rem;
   box-shadow: 10px gray;
+  position: relative;
 }
 .header__logo {
   text-align: center;
+}
+.header__icon {
+  position: absolute;
+  top: 28px;
+  left: 20px;
+  color: black;
 }
 
 .footer {
@@ -101,11 +108,10 @@ h1, h5 {
     text-align: center;
   }
 }
-
-.list {
+.process__list {
   padding: 1rem;
 }
-.list__step {
+.process__step {
   background-color: #F6F6F6;
   padding: 1.5rem;
   margin-bottom: 1.4rem;
@@ -115,15 +121,15 @@ h1, h5 {
   display: flex;
 }
 @media screen and (min-width: 900px) {
-  .list__step {
+  .process__step {
     width: 30%;
     margin: 1.5rem auto;
   }
 }
-.list__step:hover {
+.process__step:hover {
   background-color: #F5EDFF;
 }
-.list__counter {
+.process__counter {
   position: absolute;
   left: -5px;
   background-color: #9356DC;
@@ -132,11 +138,11 @@ h1, h5 {
   color: #FFFF;
   font-size: small;
 }
-.list__icon {
+.process__icon {
   color: gray;
   margin-left: 0.7rem;
 }
-.list__text {
+.process__text {
   font-weight: bold;
   margin: 0 auto;
 }
@@ -169,6 +175,7 @@ h1, h5 {
   background-color: #FFFF;
   margin-bottom: 2rem;
   width: 100%;
+  box-shadow: 3px 10px 5px #EAEAEA;
 }
 .restaurant__img {
   object-fit: cover;
@@ -213,4 +220,12 @@ h1, h5 {
 .restaurant__icon--animation:hover {
   opacity: 1;
   color: #9356DC;
+}
+
+.image {
+  width: 100%;
+  height: 18rem;
+}
+.image__background {
+  height: 100%;
 }/*# sourceMappingURL=main.css.map */
