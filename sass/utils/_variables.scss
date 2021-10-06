@@ -1,7 +1,16 @@
 $color-primary: #9356DC;
 $color-secondary: #FF79DA;
 $color-tertiary: #99E2D0;
+$dark-green: #0F9070;
 $soft-gray: #F6F6F6;
 $dark-gray: #EAEAEA;
 $white: #FFFF;
 $primary-soft: #F5EDFF;
+$footer-color: #353535;
+$degrade: linear-gradient(352deg, rgba(147,86,220,1) 13%, rgba(255,121,218,1) 100%);
+
+$breakpoint: (
+    big: 750px,
+    medium: 500px,
+    mediumL: 900px
+);

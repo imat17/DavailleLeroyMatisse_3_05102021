@@ -1,6 +1,6 @@
 @mixin btn-style {
     background: rgb(147,86,220);
-    background: linear-gradient(352deg, rgba(147,86,220,1) 13%, rgba(255,121,218,1) 100%);
+    background: $degrade;
     border-radius: 2rem;
     padding: .9rem;
     width: 12rem;
@@ -9,4 +9,39 @@
     border: none;
     cursor: pointer;
     box-shadow: 3px 10px 5px $dark-gray;
+}
+
+
+//---------------Mixins Responsive--------------------
+
+@mixin responsiveRestoCard {
+    @media screen and (min-width : map-get($map: $breakpoint, $key: big)) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 3rem;
+        margin: 2rem;
+        
+    }
+}
+
+@mixin responsiveTitle {
+    @media screen and (min-width : map-get($map: $breakpoint, $key: big)) {
+        text-align: center;
+    }
+}
+
+
+@mixin responsiveFooter {
+    @media screen and (min-width: map-get($map: $breakpoint, $key: medium)) {
+        text-align: center;
+    }
+}
+
+
+@mixin responsiveStep {
+    @media screen and (min-width: map-get($map: $breakpoint, $key: mediumL)) {
+        width: 30%;
+        margin: 1.5rem auto;
+    }
 }

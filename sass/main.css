@@ -7,11 +7,15 @@
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 body, html {
   font-family: Roboto, Arial, Helvetica;
 }
 
-h1 {
+h1, h5 {
   font-family: Shrikhand, Arial, Helvetica;
 }
 
@@ -22,6 +26,30 @@ h1 {
 }
 .header__logo {
   text-align: center;
+}
+
+.footer {
+  background: #353535;
+  padding: 1rem;
+  color: #FFFF;
+}
+@media screen and (min-width: 500px) {
+  .footer {
+    text-align: center;
+  }
+}
+.footer__logo {
+  font-size: 1.2rem;
+  padding-left: 1rem;
+}
+.footer__contact {
+  padding: 1rem;
+}
+.footer__list {
+  padding-bottom: 0.6rem;
+}
+.footer__icon {
+  padding-right: 0.6rem;
 }
 
 .localisation {
@@ -68,6 +96,11 @@ h1 {
   margin-left: 1rem;
   font-size: 1.3rem;
 }
+@media screen and (min-width: 750px) {
+  .process__title {
+    text-align: center;
+  }
+}
 
 .list {
   padding: 1rem;
@@ -80,6 +113,12 @@ h1 {
   box-shadow: 3px 10px 5px #EAEAEA;
   position: relative;
   display: flex;
+}
+@media screen and (min-width: 900px) {
+  .list__step {
+    width: 30%;
+    margin: 1.5rem auto;
+  }
 }
 .list__step:hover {
   background-color: #F5EDFF;
@@ -104,8 +143,74 @@ h1 {
 
 .restaurant {
   background-color: #F6F6F6;
-  padding: 3rem 1rem;
+  padding: 2.5rem 1rem;
+}
+@media screen and (min-width: 750px) {
+  .restaurant__test {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3rem;
+    margin: 2rem;
+  }
+}
+.restaurant__title {
+  margin-bottom: 1.2rem;
+  font-size: 1.3rem;
+}
+@media screen and (min-width: 750px) {
+  .restaurant__title {
+    text-align: center;
+  }
 }
 .restaurant__card {
   position: relative;
+  border-radius: 1rem;
+  background-color: #FFFF;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+.restaurant__img {
+  object-fit: cover;
+  width: 100%;
+  height: 11rem;
+  border-radius: 1rem 1rem 0 0;
+}
+.restaurant__new {
+  background-color: #99E2D0;
+  color: #0F9070;
+  font-size: small;
+  font-weight: bold;
+  padding: 0.3rem 0.5rem;
+  position: absolute;
+  top: 12px;
+  right: 15px;
+}
+.restaurant__footer {
+  padding: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.restaurant__name {
+  font-size: 1rem;
+  padding-bottom: 0.2rem;
+  color: black;
+}
+.restaurant__text {
+  color: black;
+}
+.restaurant__anim {
+  font-size: 1.3rem;
+  color: #696868;
+}
+.restaurant__icon--animation {
+  position: absolute;
+  transition-duration: 1s ease-in-out;
+  right: 12.5px;
+  opacity: 0;
+}
+.restaurant__icon--animation:hover {
+  opacity: 1;
+  color: #9356DC;
 }/*# sourceMappingURL=main.css.map */
