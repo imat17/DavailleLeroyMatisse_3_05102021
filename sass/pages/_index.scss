@@ -51,6 +51,7 @@
         box-shadow: $box-shadow;
         position: relative;
         display: flex;
+        cursor: pointer;
         @include responsiveStep;
         &:hover {
             background-color: $primary-soft;
@@ -58,7 +59,7 @@
     }
     &__counter {
         position: absolute;
-        left: -5px;
+        left: -10px;
         background-color: $color-primary;
         border-radius: 100px;
         width: 1.2rem;
@@ -66,6 +67,9 @@
         padding: .2rem;
         color: $white;
         font-size: small;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     &__icon {
         color: gray;
@@ -135,8 +139,8 @@
         font-size: 1.3rem;
         color: rgb(105, 104, 104);
     }
-    &__icon {
-        
+    &__icon:hover {
+        opacity: 0;
     }
     &__icon--animation {
         position: absolute;

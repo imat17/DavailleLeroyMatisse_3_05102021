@@ -7,7 +7,7 @@ $dark-gray: #EAEAEA;
 $white: #FFFF;
 $primary-soft: #F5EDFF;
 $footer-color: #353535;
-$degrade: linear-gradient(352deg, rgba(147,86,220,1) 13%, rgba(255,121,218,1) 100%);
+$degrade: linear-gradient(352deg, $color-primary, $color-secondary 100%);
 $box-shadow: 3px 10px 5px $dark-gray;
 
 $breakpoint: (

@@ -30,15 +30,29 @@
         font-size: 1.3rem;
         font-weight: 500;
     }
+    &__icon {
+        font-size: 1.3rem;
+        &:hover {
+            opacity: 0;
+        }
+    }
     &__icon--animation {
+        font-size: 1.3rem;
         position: absolute;
-        left: 15px;
+        right: 0px;
+        opacity: 0;
+        &:hover {
+            color: $color-primary;
+            opacity: 1;
+        }
     }
     &__btn {
         @include btn-style;
         margin: 0 auto;
     }
 }
+
+
 
 .meal {
     margin-top: 2rem;
@@ -72,7 +86,9 @@
         font-weight: bold;
         display: flex;
         align-items: flex-end;
-        justify-content: flex-end;
+        margin-right: 1rem;
+        margin-bottom: .5rem;
+        // justify-content: flex-end;
         font-weight: 900;
     }
     &__confirm {
@@ -84,6 +100,7 @@
         width: 4rem;
         border-radius: 0 1rem 1rem 0rem;
         margin-right: -5rem;
+        display: none;
         // &:hover {
         //     margin-right: -.5rem;
         // }
@@ -96,5 +113,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        
+    }
+}
+
+@for $i from 1 to 11 {
+    .anim-#{$i} {
+        animation-delay : #{$i/10}s;
     }
 }

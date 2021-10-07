@@ -88,7 +88,7 @@ h1, h5, .rob {
 .information__btn {
   margin: 1.8rem auto;
   background: #9356dc;
-  background: linear-gradient(352deg, #9356dc 13%, #ff79da 100%);
+  background: linear-gradient(352deg, #9356DC, #FF79DA 100%);
   border-radius: 2rem;
   padding: 0.9rem;
   width: 12rem;
@@ -97,6 +97,9 @@ h1, h5, .rob {
   border: none;
   cursor: pointer;
   box-shadow: 3px 10px 5px #EAEAEA;
+}
+.information__btn:hover {
+  opacity: 0.8;
 }
 
 .process__title {
@@ -119,6 +122,7 @@ h1, h5, .rob {
   box-shadow: 3px 10px 5px #EAEAEA;
   position: relative;
   display: flex;
+  cursor: pointer;
 }
 @media screen and (min-width: 900px) {
   .process__step {
@@ -131,7 +135,7 @@ h1, h5, .rob {
 }
 .process__counter {
   position: absolute;
-  left: -5px;
+  left: -10px;
   background-color: #9356DC;
   border-radius: 100px;
   width: 1.2rem;
@@ -139,6 +143,9 @@ h1, h5, .rob {
   padding: 0.2rem;
   color: #FFFF;
   font-size: small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .process__icon {
   color: gray;
@@ -213,6 +220,9 @@ h1, h5, .rob {
   font-size: 1.3rem;
   color: #696868;
 }
+.restaurant__icon:hover {
+  opacity: 0;
+}
 .restaurant__icon--animation {
   position: absolute;
   transition-duration: 1s ease-in-out;
@@ -265,13 +275,25 @@ h1, h5, .rob {
   font-size: 1.3rem;
   font-weight: 500;
 }
+.menu__icon {
+  font-size: 1.3rem;
+}
+.menu__icon:hover {
+  opacity: 0;
+}
 .menu__icon--animation {
+  font-size: 1.3rem;
   position: absolute;
-  left: 15px;
+  right: 0px;
+  opacity: 0;
+}
+.menu__icon--animation:hover {
+  color: #9356DC;
+  opacity: 1;
 }
 .menu__btn {
   background: #9356dc;
-  background: linear-gradient(352deg, #9356dc 13%, #ff79da 100%);
+  background: linear-gradient(352deg, #9356DC, #FF79DA 100%);
   border-radius: 2rem;
   padding: 0.9rem;
   width: 12rem;
@@ -281,6 +303,9 @@ h1, h5, .rob {
   cursor: pointer;
   box-shadow: 3px 10px 5px #EAEAEA;
   margin: 0 auto;
+}
+.menu__btn:hover {
+  opacity: 0.8;
 }
 
 .meal {
@@ -314,7 +339,8 @@ h1, h5, .rob {
   font-weight: bold;
   display: flex;
   align-items: flex-end;
-  justify-content: flex-end;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
   font-weight: 900;
 }
 .meal__confirm {
@@ -326,6 +352,7 @@ h1, h5, .rob {
   width: 4rem;
   border-radius: 0 1rem 1rem 0rem;
   margin-right: -5rem;
+  display: none;
 }
 .meal__anim {
   background-color: #FFFF;
@@ -335,4 +362,44 @@ h1, h5, .rob {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.anim-1 {
+  animation-delay: 0.1s;
+}
+
+.anim-2 {
+  animation-delay: 0.2s;
+}
+
+.anim-3 {
+  animation-delay: 0.3s;
+}
+
+.anim-4 {
+  animation-delay: 0.4s;
+}
+
+.anim-5 {
+  animation-delay: 0.5s;
+}
+
+.anim-6 {
+  animation-delay: 0.6s;
+}
+
+.anim-7 {
+  animation-delay: 0.7s;
+}
+
+.anim-8 {
+  animation-delay: 0.8s;
+}
+
+.anim-9 {
+  animation-delay: 0.9s;
+}
+
+.anim-10 {
+  animation-delay: 1s;
 }/*# sourceMappingURL=main.css.map */
