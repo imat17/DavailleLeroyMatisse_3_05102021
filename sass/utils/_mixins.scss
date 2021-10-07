@@ -14,6 +14,9 @@
 
 //---------------Mixins Responsive--------------------
 
+
+//-------------------Index----------------------
+
 @mixin responsiveRestoCard {
     @media screen and (min-width : map-get($map: $breakpoint, $key: big)) {
         display: grid;
@@ -43,5 +46,21 @@
     @media screen and (min-width: map-get($map: $breakpoint, $key: mediumL)) {
         width: 30%;
         margin: 1.5rem auto;
+    }
+}
+
+//--------------------------Menu----------------------------
+
+@mixin responsiveMenu {
+    @media screen and (min-width: map-get($map: $breakpoint, $key: big)) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+}
+
+@mixin responsiveImg {
+    @media screen and (min-width: map-get($map: $breakpoint, $key: big)) {
+        height: 28rem;
     }
 }

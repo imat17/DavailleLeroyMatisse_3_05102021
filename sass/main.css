@@ -15,7 +15,7 @@ body, html {
   font-family: Roboto, Arial, Helvetica;
 }
 
-h1, h5 {
+h1, h5, .rob {
   font-family: Shrikhand, Arial, Helvetica;
 }
 
@@ -133,7 +133,9 @@ h1, h5 {
   position: absolute;
   left: -5px;
   background-color: #9356DC;
-  border-radius: 200px;
+  border-radius: 100px;
+  width: 1.2rem;
+  height: 1.2rem;
   padding: 0.2rem;
   color: #FFFF;
   font-size: small;
@@ -226,6 +228,106 @@ h1, h5 {
   width: 100%;
   height: 18rem;
 }
+@media screen and (min-width: 750px) {
+  .image {
+    height: 28rem;
+  }
+}
 .image__background {
   height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 750px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+
+.menu {
+  background-color: #F6F6F6;
+  padding: 1rem;
+  position: relative;
+  margin-top: -3.5rem;
+  border-radius: 2rem 2rem 0 0;
+}
+.menu__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 1rem;
+}
+.menu__name {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.menu__btn {
+  background: #9356dc;
+  background: linear-gradient(352deg, #9356dc 13%, #ff79da 100%);
+  border-radius: 2rem;
+  padding: 0.9rem;
+  width: 12rem;
+  font-size: 0.9rem;
+  color: #FFFF;
+  border: none;
+  cursor: pointer;
+  box-shadow: 3px 10px 5px #EAEAEA;
+  margin: 0 auto;
+}
+
+.meal {
+  margin-top: 2rem;
+}
+.meal__title {
+  color: dark;
+  font-weight: 400;
+  border-bottom: 3px #99E2D0 solid;
+  width: 35px;
+}
+.meal__container {
+  cursor: pointer;
+  box-shadow: 3px 10px 5px #EAEAEA;
+  background-color: #FFFF;
+  margin: 1rem 0.5rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.meal__choise {
+  flex: 1;
+}
+.meal__name {
+  padding: 0.5rem 0.5rem;
+}
+.meal__text {
+  padding: 0 0 0.5rem 0.5rem;
+}
+.meal__price {
+  font-weight: bold;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-weight: 900;
+}
+.meal__confirm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #99E2D0;
+  color: #99E2D0;
+  width: 4rem;
+  border-radius: 0 1rem 1rem 0rem;
+  margin-right: -5rem;
+}
+.meal__anim {
+  background-color: #FFFF;
+  border-radius: 100px;
+  height: 1.5rem;
+  width: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
