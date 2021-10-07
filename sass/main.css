@@ -255,6 +255,7 @@ h1, h5, .rob {
   border-radius: 2rem 2rem 0 0;
 }
 .menu__title {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -263,6 +264,10 @@ h1, h5, .rob {
 .menu__name {
   font-size: 1.3rem;
   font-weight: 500;
+}
+.menu__icon--animation {
+  position: absolute;
+  left: 15px;
 }
 .menu__btn {
   background: #9356dc;
