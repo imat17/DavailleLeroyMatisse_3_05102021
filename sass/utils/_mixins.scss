@@ -3,14 +3,16 @@
     background: $degrade;
     border-radius: 2rem;
     padding: .9rem;
-    width: 12rem;
+    width: 12.5rem;
     font-size: 0.9rem;
+    font-weight: 600;
     color: $white;
     border: none;
     cursor: pointer;
     box-shadow: 3px 10px 5px $dark-gray;
     &:hover {
         opacity: .8;
+        box-shadow: 3px 10px 5px #c5c5c5;
     }
 }
 

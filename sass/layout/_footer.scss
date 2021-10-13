@@ -6,12 +6,16 @@
     &__logo {
         font-size: 1.2rem;
         padding-left: 1rem;
+        width: 8rem;
     }
     &__contact {
         padding: 1rem;
     }
     &__list {
         padding-bottom: .6rem;
+        &--link {
+            color: $white;
+        }
     }
     &__icon {
         padding-right: .6rem;

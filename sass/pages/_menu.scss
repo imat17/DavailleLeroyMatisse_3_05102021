@@ -41,6 +41,7 @@
         right: 0px;
         opacity: 0;
         &:hover {
+            transition: .8s;
             font-size: 1.3rem;
             background: $degrade;
             -webkit-background-clip: text;
