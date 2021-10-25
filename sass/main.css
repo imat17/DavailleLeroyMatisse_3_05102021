@@ -449,6 +449,15 @@ h1, h5, .rob {
   justify-content: flex-end;
   font-weight: 900;
 }
+.meal:hover .meal__price {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+  -webkit-animation-duration: 0.6s;
+  animation-duration: 0.6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  display: flex;
+}
 .meal__confirm {
   display: flex;
   justify-content: center;
