@@ -155,7 +155,7 @@ h1, h5, .rob {
   border: none;
   cursor: pointer;
   box-shadow: 3px 10px 5px #EAEAEA;
-  transition: opacity 0.7s ease-in-out;
+  transition: opacity, box-shadow 0.7s ease-in-out;
 }
 .information__btn:hover {
   opacity: 0.85;
@@ -553,7 +553,7 @@ h1, h5, .rob {
   border: none;
   cursor: pointer;
   box-shadow: 3px 10px 5px #EAEAEA;
-  transition: opacity 0.7s ease-in-out;
+  transition: opacity, box-shadow 0.7s ease-in-out;
 }
 .btn__order:hover {
   opacity: 0.85;
