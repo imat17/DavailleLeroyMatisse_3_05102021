@@ -10,8 +10,9 @@
     border: none;
     cursor: pointer;
     box-shadow: 3px 10px 5px $dark-gray;
+    transition: opacity .7s ease-in-out;
     &:hover {
-        opacity: .8;
+        opacity: .85;
         box-shadow: 3px 10px 5px #c5c5c5;
     }
 }

@@ -1,8 +1,8 @@
-@keyframes fadeInLeft {
+@keyframes fadeInUp {
   0% {
     opacity: 0;
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
   }
   100% {
     opacity: 1;
@@ -155,9 +155,10 @@ h1, h5, .rob {
   border: none;
   cursor: pointer;
   box-shadow: 3px 10px 5px #EAEAEA;
+  transition: opacity 0.7s ease-in-out;
 }
 .information__btn:hover {
-  opacity: 0.8;
+  opacity: 0.85;
   box-shadow: 3px 10px 5px #c5c5c5;
 }
 
@@ -418,8 +419,8 @@ h1, h5, .rob {
   border-radius: 1rem;
   display: flex;
   justify-content: space-between;
-  -webkit-animation-name: fadeInLeft;
-  animation-name: fadeInLeft;
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
@@ -552,8 +553,9 @@ h1, h5, .rob {
   border: none;
   cursor: pointer;
   box-shadow: 3px 10px 5px #EAEAEA;
+  transition: opacity 0.7s ease-in-out;
 }
 .btn__order:hover {
-  opacity: 0.8;
+  opacity: 0.85;
   box-shadow: 3px 10px 5px #c5c5c5;
 }/*# sourceMappingURL=main.css.map */
