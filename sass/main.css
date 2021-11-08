@@ -75,7 +75,7 @@ h1, h5, .rob {
 .header {
   background-color: #FFFF;
   padding: 0.8rem;
-  box-shadow: 10px gray;
+  box-shadow: 10px 0 0 gray;
   position: relative;
 }
 .header__logo {
@@ -121,7 +121,7 @@ h1, h5, .rob {
   text-align: center;
   padding: 1.3rem;
   font-weight: 500;
-  box-shadow: 1rem;
+  box-shadow: 16px;
 }
 .localisation__icon {
   padding: 0.5rem;
@@ -397,7 +397,7 @@ h1, h5, .rob {
   .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 1rem;
     margin: 0 2.5rem;
   }
 }
@@ -405,7 +405,6 @@ h1, h5, .rob {
   margin-top: 2rem;
 }
 .container__title {
-  color: dark;
   font-weight: 400;
   border-bottom: 3px #99E2D0 solid;
   width: 35px;
